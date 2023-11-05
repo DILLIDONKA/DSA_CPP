@@ -1,0 +1,83 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+
+the array stores the elements in the contiguous memory
+array is declared using the int keyword;
+ex: int arr1[7] where 7 is the no. of blocks in the array 
+the elements are garbage values.
+
+another way of intialize and delcare a array is '
+int arr2[10]={1,2,3}
+
+the rest of the space is alloted with 0s.
+
+accessing the element in array:  cout<< arr1[2]<<endl; { the output is any random garbage value}
+
+the size of operator will return the size taken by the given variable in bytes.
+
+cout<<sizeof(arr2)<<endl;  { output is 40}
+
+ADVANTAGE AND DISADVANTAGE OF ARRAY :
+
+accessing of the elements and tranversal and code is easy.
+
+sorting of an array is easy
+
+we may not have the space for the continuos memory.
+the size of the array is constant.
+insertion and deletion of the elements in the array is difficult.
+
+OPERATORS IN CPP:
+
+arithmetic operator:
+
+(+ - * / % ){ modulo works on the integers and the sign of the output in modulo division is depends on the sign of the operand in the numerator}
+
+int main(){
+int a,b; 
+a=21,b=12;
+
+cout<<a+b<<endl;
+
+logical operator:
+ 
+(< , > , <= , >= , ==)
+cout<<(a>b)<<endl; ( output is 1 i.e, the given condition is true so the output is 1 )
+if(a>b) {
+cout<<"a is greater"<<endl;
+}
+else{
+cout<< "b is greater" << endl;    // the output will be a is greater.
+}
+
+Relational operator:
+
+(&& , || , !)
+
+if ( a>b && b!=0){
+cout<< "result1"<< endl;
+} else{
+cout<< "result2"<< endl;    // the output will be result1. because both the conditions are true
+}
+
+
+if ( a<b && b!=0) { 
+cout<< " result1"<< endl;   // the output will be result2 . because the first statement if false , if the first one is fails then it does not checks the second statement in the and operator.
+} else{
+cout<< "result2"<< endl;
+}
+
+if ( a<b && (b=0)) {        // you are assigning some value to the b.
+cout<< a<< endl;   // the output will be 12.
+} else{
+cout<< b<< endl;
+
+Ternary operator :
+
+syntax:  (condition)? expresssion1 : expression2
+
+Unary operator :
+
+pre increment/decrement means first increment/ decrement will happen on that variable and after that the value is assigned to the other variable.

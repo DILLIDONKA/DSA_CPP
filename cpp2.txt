@@ -1,0 +1,26 @@
+FUNCTIONS:
+
+* which are used for the promote the modularity of the code.
+* which are used for the reusability of the code.
+
+FUNCTION DECLARATION : we must ensure the compiler to ' what the function is '
+ 
+The syntax is " return_type function_name ( parameters )
+
+return_type is what the functions returns.
+function_ name means the name of the function.
+parameters means what the function takes as input.
+
+FUNCTION DEFINITION: The actual logic or line of statements written in the function block is called as the function definition.
+
+Function is declared before the function call. 
+ 
+
+LOOPS IN C++:
+
+A loop statement allows us to execute a statement or group of statements multiple times.
+
+DIFFRENT TYPES LOOPS IN C++ IS FOR, WHILE , DO WHILE, NESTED
+
+DIFFERENT CONTROL STATEMETS IS BREAK , CONTINUE, GOTO.
+

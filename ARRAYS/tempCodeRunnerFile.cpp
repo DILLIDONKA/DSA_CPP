@@ -1,0 +1,1 @@
+cout<<"The maximum appearing element in the given arrays is "<<r;
