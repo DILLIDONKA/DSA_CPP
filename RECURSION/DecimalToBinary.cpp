@@ -36,5 +36,6 @@
      int i,n;
      cout<<"Enter the number:";
      cin>>n;
+     cout<<"The binary representation of the "<<n<< " is :";
      return Binary(n);
  }
