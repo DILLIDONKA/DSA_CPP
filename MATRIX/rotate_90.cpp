@@ -44,5 +44,5 @@ int main(){
      cout<<"matrix after rotate by 90 degrees is :"<<endl;
      rotate_90(arr,m,n);
      return 0;
-     
+
 }
